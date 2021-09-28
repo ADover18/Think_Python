@@ -1,13 +1,4 @@
 import string
-# print(string.punctuation)
-# print(string.whitespace)
-
-# mydict = {}
-
-# for char in string.punctuation:
-#     mydict[char] = None
-
-# print(mydict)
 
 def word_list_from_file(filepath):
     file = open(filepath)
@@ -65,7 +56,7 @@ def highest_values_dict(dictionary):
 
 
 most_common_words_dict = highest_values_dict(wordfreqhist)
-# print(most_common_words_dict)
+
 
 def checkForTypos(file):
     wordlist = word_list_from_file(file)
